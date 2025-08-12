@@ -26,24 +26,24 @@ int main()
     cin >> job_choice;
 
     switch (job_choice) {
-    case 1:
-        player = new Warrior(nickname);
+        case 1:
+            player = new Warrior(nickname);
         break;
 
-    case 2:
-        player = new Magician(nickname);
+        case 2:
+            player = new Magician(nickname);
         break;
 
-    case 3:
-        player = new Thief(nickname);
+        case 3:
+            player = new Thief(nickname);
         break;
 
-    case 4:
-        player = new Archer(nickname);
+        case 4:
+            player = new Archer(nickname);
         break;
 
-    default:
-        cout << "잘못된 입력입니다." << endl;
+        default:
+            cout << "잘못된 입력입니다." << endl;
         return 1;
     }
 
