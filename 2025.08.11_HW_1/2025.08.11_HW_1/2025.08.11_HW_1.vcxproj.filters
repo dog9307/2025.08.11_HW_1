@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="JobChange">
+      <UniqueIdentifier>{35c26e03-4114-4efa-902f-c57415fd8a66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JobChange\Warrior">
+      <UniqueIdentifier>{bedf4bb3-e120-4788-a903-7dde40981eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JobChange\Magician">
+      <UniqueIdentifier>{0301bb14-ec33-403c-aff3-47133487a251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JobChange\Thief">
+      <UniqueIdentifier>{eeb64a07-bf64-48fe-b543-da00ec68051e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JobChange\Archer">
+      <UniqueIdentifier>{82bfc28a-9eac-40fa-82c2-6fdf6be1c191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster">
+      <UniqueIdentifier>{296734bf-8428-4e27-abbf-e28398fa6395}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>JobChange</Filter>
+    </ClCompile>
+    <ClCompile Include="Warrior.cpp">
+      <Filter>JobChange\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="Magician.cpp">
+      <Filter>JobChange\Magician</Filter>
+    </ClCompile>
+    <ClCompile Include="Archer.cpp">
+      <Filter>JobChange\Archer</Filter>
+    </ClCompile>
+    <ClCompile Include="Thief.cpp">
+      <Filter>JobChange\Thief</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>JobChange</Filter>
+    </ClInclude>
+    <ClInclude Include="Warrior.h">
+      <Filter>JobChange\Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="Magician.h">
+      <Filter>JobChange\Magician</Filter>
+    </ClInclude>
+    <ClInclude Include="Archer.h">
+      <Filter>JobChange\Archer</Filter>
+    </ClInclude>
+    <ClInclude Include="Thief.h">
+      <Filter>JobChange\Thief</Filter>
+    </ClInclude>
+    <ClInclude Include="Jobs.h">
+      <Filter>JobChange</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
